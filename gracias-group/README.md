@@ -184,7 +184,7 @@ This project is proprietary and designed for Gracias Group.
 
 ## 💬 Support
 
-For issues or questions, contact: info@graciasgroup.com
+For issues or questions, contact: symphorienpyana065@gmail.com
 
 ---
 
