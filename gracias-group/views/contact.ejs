@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+    <link rel="icon" type="image/jpeg" href="/images/logo.jpeg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Gracias Group</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/notification.css">
+</head>
+<body>
+  <%- include('./partials/navbar') %>
+
+  <!-- HERO SECTION -->
+  <section style="background: linear-gradient(135deg, var(--dark-bg) 0%, #1e3a8a 100%); color: white; padding: 5rem 2rem; text-align: center; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+    <div class="container">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem; animation: slideInUp 0.6s ease-out;">Nous Contacter</h1>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; animation: slideInUp 0.6s ease-out 0.2s both;">Nous aimerions vous entendre et discuter de la façon dont nous pouvons vous aider</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3 style="font-size: 1.5rem; margin-bottom: 2rem; color: #60a5fa;">Coordonnées</h3>
+          
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Visitez-nous</h4>
+              <p>
+                6 QV Mawazo Q/ GB C <br>
+                Kinshasa<br>
+                République Démocratique du Congo<br>
+                kinshasa Ville
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <h4>Appelez-nous</h4>
+              <p>
+                <a href="tel:+243 810 209 311" style="color: #60a5fa; text-decoration: none;">+243 810 209 311</a><br>
+                <a href="tel:+243 810 209 311" style="color: #60a5fa; text-decoration: none;">+243 810 209 311</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Envoyez-nous un E-mail</h4>
+              <p>
+                <a href="contact@agromwinda.com" style="color: #60a5fa; text-decoration: none;">contact@agromwinda.com</a><br>
+                <a href=contact@agromwinda.com" style="color: #60a5fa; text-decoration: none;">contact@agromwinda.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Heures d'Ouverture</h4>
+              <p>
+                Lundi - Vendredi: 8h30 - 18h00<br>
+                Samedi: Fermé<br>
+                Dimanche: Fermé
+              </p>
+            </div>
+          </div>
+
+          <hr style="border: 1px solid rgba(255, 255, 255, 0.2); margin: 2rem 0;">
+
+          <h3 style="font-size: 1.2rem; margin-bottom: 1.5rem; color: #60a5fa;">Connectez-vous avec Nous</h3>
+          <div class="social-links" style="justify-content: flex-start;">
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://linkedin.com" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://youtube.com" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3 style="font-size: 1.5rem; margin-bottom: 2rem; color: #60a5fa;">Envoyez-nous un Message</h3>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Votre Nom *</label>
+              <input type="text" id="name" name="name" placeholder="Jean Dupont" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse E-mail *</label>
+              <input type="email" id="email" name="email" placeholder="jean@exemple.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Sujet *</label>
+              <input type="text" id="subject" name="subject" placeholder="Demande de Projet" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Parlez-nous de votre projet..." required></textarea>
+            </div>
+
+            <div class="form-group">
+              <button type="submit" style="cursor: pointer;">
+                <i class="fas fa-paper-plane"></i> Envoyer le Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP SECTION (Placeholder) -->
+  <section style="background: linear-gradient(135deg, var(--dark-bg) 0%, #1e3a8a 100%); padding: 5rem 2rem; text-align: center;">
+    <div class="container">
+      <h2 style="color: white; font-size: 2rem; margin-bottom: 2rem;">Trouvez-nous sur la Carte</h2>
+      <div style="background: rgba(255, 255, 255, 0.05); border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); padding: 2rem; min-height: 400px; display: flex; align-items: center; justify-content: center; color: #cbd5e1;">
+        <div style="text-align: center;">
+          <div style="font-size: 3rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-map"></i>
+          </div>
+          <p style="font-size: 1.1rem;">Insérez votre Google Maps ou localisation ici</p>
+          <p style="font-size: 0.9rem; margin-top: 0.5rem;">Visitez notre bureau pour rencontrer l'équipe en personne</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Questions Fréquemment Posées</h2>
+        <p>Réponses rapides aux questions courantes</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Combien de temps pouvez-vous mettre pour démarrer mon projet?</h3>
+          <p>Nous commençons généralement dans les 2-3 semaines après le lancement du projet. Les projets urgents peuvent être accommodés sur arrangement préalable.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Quel est votre délai d'exécution type?</h3>
+          <p>Le délai varie selon la complexité du projet. Les petits projets prennent 4-6 semaines, tandis que les solutions d'entreprise peuvent prendre 3-6 mois.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Fournissez-vous un support continu?</h3>
+          <p>Oui! Nous offrons un support 24/7, une maintenance et des mises à jour après le déploiement du projet pour assurer des performances optimales.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Quels secteurs servez-vous?</h3>
+          <p>Nous travaillons dans tous les secteurs, y compris la vente au détail, les finances, la santé, l'éducation, la fabrication, et bien d'autres.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Pouvez-vous intégrer avec les systèmes existants?</h3>
+          <p>Absolument! Nous nous spécialisons dans l'intégration transparente avec votre pile technologique actuelle et vos systèmes hérités.</p>
+        </div>
+
+        <div class="feature-card">
+          <h3 style="color: #60a5fa; margin-bottom: 0.5rem;">Quelles options de paiement acceptez-vous?</h3>
+          <p>Nous acceptons toutes les cartes de crédit majeures, les virements bancaires, PayPal, et pouvons discuter d'arrangements de paiement personnalisés pour les clients d'entreprise.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 5rem 2rem; text-align: center;">
+    <div class="container">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Créons quelque chose d'Extraordinaire</h2>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Que vous ayez un projet spécifique en tête ou que vous souhaitiez discuter des possibilités, nous sommes là pour vous aider à réussir.
+      </p>
+      <a href="#contactForm" style="scroll-behavior: smooth;" class="btn btn-primary">
+        <i class="fas fa-arrow-up"></i> Accéder au Formulaire de Contact
+      </a>
+    </div>
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

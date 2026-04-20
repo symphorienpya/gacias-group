@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/jpeg" href="/images/logo.jpeg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notre Équipe | Gracias Group</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/notification.css">
+</head>
+<body>
+  <%- include('./partials/navbar') %>
+
+  <!-- HERO SECTION -->
+  <section style="background: linear-gradient(135deg, var(--dark-bg) 0%, #1e3a8a 100%); color: white; padding: 5rem 2rem; text-align: center; min-height: 300px; display: flex; align-items: center; justify-content: center;">
+    <div class="container">
+      <h1 style="font-size: 3rem; margin-bottom: 1rem; animation: slideInUp 0.6s ease-out;">Rencontrez Notre Équipe</h1>
+      <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto; animation: slideInUp 0.6s ease-out 0.2s both;">Professionnels talentueux dédiés à votre succès</p>
+    </div>
+  </section>
+
+  <!-- TEAM MEMBERS SECTION -->
+  <section class="team">
+    <div class="container">
+      <div class="section-title">
+        <h2 style="color: white;">Équipe de Direction</h2>
+        <p style="color: #cbd5e1;">Nos leaders visionnaires stimulant l'innovation et l'excellence</p>
+      </div>
+
+      <div class="team-grid" style="margin-top: 3rem;">
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Jean Martinez</h3>
+          <p>Fondateur & PDG</p>
+          <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Plus de 15 ans d'expérience dans l'industrie</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Sarah Johnson</h3>
+          <p>CTO & Co-fondateur</p>
+          <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Leader technologique & architecte logiciel</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>David Liu</h3>
+          <p>Directeur Financier</p>
+          <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Expert en finances & stratégie commerciale</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Emma Anderson</h3>
+          <p>Directrice Opérationnelle</p>
+          <p style="font-size: 0.85rem; margin-top: 0.5rem; opacity: 0.8;">Opérations & optimisation des processus</p>
+          <div class="social-links" style="margin-top: 1rem;">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTMENTS SECTION -->
+  <section class="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Nos Départements</h2>
+        <p>Équipes spécialisées travaillant ensemble pour votre succès</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Development</h3>
+          <p style="margin-bottom: 1rem;">Expert developers specializing in cutting-edge technologies</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 30+ developers</p>
+            <p><strong>Expertise:</strong> Full-stack, mobile, cloud</p>
+            <p><strong>Avg. Experience:</strong> 8+ years</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>Design</h3>
+          <p style="margin-bottom: 1rem;">Talented designers creating beautiful user experiences</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 15+ designers</p>
+            <p><strong>Expertise:</strong> UI/UX, branding, motion</p>
+            <p><strong>Avg. Experience:</strong> 6+ years</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Marketing</h3>
+          <p style="margin-bottom: 1rem;">Strategic marketers driving growth and brand visibility</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 12+ specialists</p>
+            <p><strong>Expertise:</strong> Digital, content, analytics</p>
+            <p><strong>Avg. Experience:</strong> 7+ years</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-headset"></i>
+          </div>
+          <h3>Support</h3>
+          <p style="margin-bottom: 1rem;">Dedicated support team available 24/7 for clients</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 20+ support staff</p>
+            <p><strong>Expertise:</strong> Technical, customer success</p>
+            <p><strong>Response Time:</strong> &lt;1 hour</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>AI/ML</h3>
+          <p style="margin-bottom: 1rem;">Data scientists and ML engineers pushing boundaries</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 8+ specialists</p>
+            <p><strong>Expertise:</strong> AI, ML, data science</p>
+            <p><strong>Avg. Experience:</strong> 5+ years</p>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; background: linear-gradient(135deg, #60a5fa 0%, #f59e0b 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Security</h3>
+          <p style="margin-bottom: 1rem;">Security experts protecting your digital assets</p>
+          <div style="color: var(--text-light); font-size: 0.9rem;">
+            <p><strong>Team Size:</strong> 10+ specialists</p>
+            <p><strong>Expertise:</strong> Cybersecurity, compliance</p>
+            <p><strong>Avg. Experience:</strong> 8+ years</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM CULTURE SECTION -->
+  <section style="background: linear-gradient(135deg, var(--dark-bg) 0%, #1e3a8a 100%); color: white; padding: 5rem 2rem;">
+    <div class="container">
+      <div class="section-title">
+        <h2 style="color: white;">Our Culture</h2>
+        <p style="color: #cbd5e1;">What makes Gracias Group a great place to work</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Innovation</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">We encourage creativity and embrace new ideas from all team members.</p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Collaboration</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">Strong teamwork and cross-functional cooperation drive success.</p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Growth</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">We invest in continuous learning and professional development.</p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Well-being</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">Work-life balance and employee wellness are our priorities.</p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-globe"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Diversity</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">We celebrate diverse backgrounds and perspectives.</p>
+        </div>
+
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 2rem; border-radius: 1rem; border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); text-align: center;">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: #60a5fa;">
+            <i class="fas fa-star"></i>
+          </div>
+          <h3 style="margin-bottom: 0.5rem;">Excellence</h3>
+          <p style="color: #cbd5e1; font-size: 0.9rem;">We maintain high standards in everything we do.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN OUR TEAM SECTION -->
+  <section class="features">
+    <div class="container" style="text-align: center;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--text-dark);">Join Our Growing Team</h2>
+      <p style="font-size: 1.1rem; color: var(--text-light); max-width: 600px; margin: 0 auto 2rem;">
+        Are you passionate about technology and innovation? We're always looking for talented individuals to join our team.
+      </p>
+      <a href="#" class="btn btn-primary" style="display: inline-block;">
+        <i class="fas fa-briefcase"></i> View Open Positions
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 5rem 2rem; text-align: center;">
+    <div class="container">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Work With Our Team</h2>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Experience the expertise and dedication of our talented team. Let's build something amazing together.
+      </p>
+      <a href="/contact" class="btn btn-primary">
+        <i class="fas fa-envelope"></i> Get in Touch
+      </a>
+    </div>
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>

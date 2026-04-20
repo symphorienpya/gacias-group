@@ -1,1 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/jpeg" href="/images/logo.jpeg">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias Group</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/notification.css">
+</head>
+<body>
+  <%- include('./partials/navbar') %>
 
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h1>Bienvenue chez <span>Gracias Group</span></h1>
+        <p>Transformez votre entreprise avec nos solutions innovantes et notre équipe d'experts. Nous livrons l'excellence dans chaque projet.</p>
+        <div class="hero-buttons">
+          <a href="/contact" class="btn btn-primary">
+            <i class="fas fa-rocket"></i> Commencer
+          </a>
+          <a href="/about" class="btn btn-secondary">
+            <i class="fas fa-arrow-right"></i> En Savoir Plus
+          </a>
+        </div>
+      </div>
+      <div class="hero-image" style="background-image: url('/images/irs.png'); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 12px; box-shadow: 0 20px 60px rgba(96, 165, 250, 0.4); transition: transform 0.3s ease; width: 100%; height: 400px; min-height: 400px;">
+      </div>
+
+    </div>
+  </section>
+
+
+<!-- PORTFOLIO PREVIEW SECTION -->
+<section class="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>Projets Récents</h2>
+      <p>Présentant nos meilleur travail et collaborations client réussies</p>
+    </div>
+
+    <div class="portfolio-grid">
+
+      <!-- 1 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="/images/E-Commerce.png" alt="E-Commerce" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Plateforme E-Commerce</h3>
+          <p>Magasin en ligne moderne avec des fonctionnalités avancées et une expérience utilisateur fluide.</p>
+          <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="https://villagesatellites.com/" target="_blank" style="color:#60a5fa;">Bahadi</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\Application Mobile.jpg" alt="Mobile App" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Application Mobile</h3>
+          <p>Application iOS et Android riche en fonctionnalités avec un design intuitif.</p>
+          <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="https://payment.agromwinda.com/" target="_blank" style="color:#60a5fa;">Web-Box</a>
+          </li>
+          
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="/images/Système de paiement.jpg" alt="AgroPay" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Système de paiement</h3>
+          <p>AgroPay est une solution de paiement numérique pour agriculture et taxes.</p>
+          <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="https://payment.agromwinda.com/" target="_blank" style="color:#60a5fa;">AgroPay</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\SIMA.jpg" alt="SIMA" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>SIMA</h3>
+          <p>Système d’information sur les marchés agricoles pour suivre prix et tendances.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">SIMA</a>
+          </li>
+
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\taxes.jpg" alt="TaxMwinda" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right">TaxMwinda</i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>TaxMwinda</h3>
+          <p>Solution numérique pour la gestion et paiement des impôts en RDC.</p>
+            <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">TaxMwinda</a>
+          </li>
+
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="/images/Accès à l’eau potable.jpg" alt="Water System" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right">EAU</i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Accès à l’eau potable</h3>
+          <p>Système digitalisé pour gérer l’eau potable et les paiements électroniques.</p>
+             <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">L'AEU POTABLE A TOUS</a>
+          </li>
+
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\docter.png" alt="Telemedecine" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Télémédecine</h3>
+          <p>Consultations médicales à distance via technologies numériques.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">Télémédecine</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\climat.png" alt="Climate System" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Adaptation climatique</h3>
+          <p>Systèmes pour renforcer la résilience face au changement climatique en RDC.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">Climat</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\Registres nationaux.jpg" alt="National Register" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Registres nationaux</h3>
+          <p>Base de données des agriculteurs et entrepreneurs en RDC.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">Native pride</a>
+          </li>
+        </div>
+      </div>
+
+      <!-- 10 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\Énergie Durable.jpg" alt="Energy System" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>Énergie Dirable (Impact Economique Circulaire)</h3>
+          <p>Solutions d’énergie durable et économie circulaire en RDC.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="#" target="_blank" style="color:#60a5fa;">Impact Economique Circulaire</a>
+          </li>
+        </div>
+      </div>
+
+
+
+
+          <!-- 10 -->
+      <div class="portfolio-item">
+        <div class="portfolio-image">
+          <img src="\images\wifi.jpg" alt="Energy System" />
+          <div class="portfolio-overlay">
+            <a href="#"><i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-content">
+          <h3>WI-FI</h3>
+          <p>Wi-Fi – Village Satellites est un projet d'accès à Internet en milieu rural qui fournit une connectivité abordable et fiable aux villages isolés grâce aux réseaux satellitaires et sans fil. Il permet aux communautés d'accéder à l'éducation, aux soins de santé et aux services numériques là où l'infrastructure Internet traditionnelle est inexistante.</p>
+           <li>
+            <i class="fas fa-check" style="color:#60a5fa;margin-right:0.5rem;"></i>
+            Partenaire:
+            <a href="https://villagesatellites.com/" target="_blank" style="color:#60a5fa;">VillageSatelites</a>
+          </li>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div style="text-align:center;margin-top:3rem;">
+      <a href="/portfolio" class="btn btn-primary">
+        <i class="fas fa-folder-open"></i> Voir Tous les Projets
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+  
+  <!-- TEAM PREVIEW SECTION -->
+  <section class="team">
+    <div class="container">
+      <div class="section-title">
+        <h2>Rencontrez Nos Experts</h2>
+        <p>Une équipe talentueuse dédiée à la livraison de résultats exceptionnels</p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Richard Matengo</h3>
+          <p>Chef de projet</p>
+          <div class="social-links">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Jeff Batumike</h3>
+          <p>Responsable du Design </p>
+          <div class="social-links">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="GitHub"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Michee Nkusu</h3>
+          <p>CTO & Développeur Principal</p>
+          <div class="social-links">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Portfolio"><i class="fas fa-globe"></i></a>
+          </div>
+        </div>
+
+        <div class="team-member">
+          <div class="team-member-image">
+            <i class="fas fa-user-tie"></i>
+          </div>
+          <h3>Emily Rodriguez</h3>
+          <p>Responsable Marketing</p>
+          <div class="social-links">
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="/team" class="btn btn-primary">
+          <i class="fas fa-users"></i> Voir l'Équipe Complète
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- FEATURES/SERVICES PREVIEW SECTION -->
+  <section class="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Pourquoi Choisir Gracias Group ?</h2>
+        <p>Nous fournissons des solutions complètes adaptées à vos besoins commerciaux</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Innovation</h3>
+          <p>Technologie de pointe et solutions créatives qui gardent votre entreprise en avance sur la concurrence.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Équipe d'Experts</h3>
+          <p>Des professionnels dédiés avec des années d'expérience dans leurs domaines respectifs.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Fiabilité</h3>
+          <p>Des partenariats de confiance basés sur la transparence, la qualité et les résultats éprouvés.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-cog"></i>
+          </div>
+          <h3>Support</h3>
+          <p>Support client 24/7 garantissant le bon fonctionnement de votre entreprise à tout moment.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Croissance</h3>
+          <p>Solutions stratégiques conçues pour développer votre entreprise et maximiser la rentabilité.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-handshake"></i>
+          </div>
+          <h3>Partenariat</h3>
+          <p>Nous travaillons comme une extension de votre équipe pour atteindre le succès partagé et les objectifs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  
+  <!-- CTA SECTION -->
+  <section style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); color: white; padding: 5rem 2rem; text-align: center;">
+    <div class="container">
+      <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">Prêt à Transformer Votre Entreprise ?</h2>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+        Rejoignez des centaines de clients satisfaits qui ont réalisé une croissance remarquable avec Gracias Group.
+      </p>
+      <a href="/contact" class="btn btn-primary">
+        <i class="fas fa-envelope"></i> Contactez-Nous Dès Aujourd'hui
+      </a>
+    </div>
+  </section>
+
+  <%- include('./partials/footer') %>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
